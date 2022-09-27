@@ -1,0 +1,10 @@
+.navbar-brand{
+    cursor:pointer;
+    font-size: 28px;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing:.2px;
+}

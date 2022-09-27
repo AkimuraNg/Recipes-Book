@@ -1,0 +1,30 @@
+.description{
+    margin-top: 150px;
+}
+.description > h1{
+    font-family: 'Itim', cursive;
+    font-size: 64px;
+    line-height: 77px;
+    color: #41BDE4;
+}
+.description > p{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.cooking{
+    text-align: left;
+    margin-top: 50px;
+}
+.cooking >h3{
+    margin-left: 80px;
+}
+
+.cocktail{
+    text-align: left;
+    margin-top: 250px;
+}
+.cocktail > h3{
+    margin-left: 80px;
+}
