@@ -12,13 +12,15 @@
     font-size: 20px;
     line-height: 28px;
 }
-
+.view{
+    margin-top: 100px;  
+}
 .cooking{
     text-align: left;
     margin-top: 50px;
 }
 .cooking >h3{
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .cocktail{
@@ -26,5 +28,5 @@
     margin-top: 250px;
 }
 .cocktail > h3{
-    margin-left: 80px;
+    margin-left: 20px;
 }
