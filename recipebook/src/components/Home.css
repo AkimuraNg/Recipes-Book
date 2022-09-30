@@ -1,5 +1,5 @@
 .description{
-    margin-top: 150px;
+    margin-top: 80px;
 }
 .description > h1{
     font-family: 'Itim', cursive;
@@ -13,20 +13,40 @@
     line-height: 28px;
 }
 .view{
-    margin-top: 100px;  
+    margin-top: 40px;  
+}
+.recommend{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin: 20px 10px;
 }
 .cooking{
     text-align: left;
-    margin-top: 50px;
+    margin: 20px 0px;
 }
 .cooking >h3{
-    margin-left: 20px;
+    margin: 20px 20px;
 }
-
 .cocktail{
     text-align: left;
-    margin-top: 250px;
+    margin: 30px 0px
 }
 .cocktail > h3{
-    margin-left: 20px;
+    margin: 20px 20px;
+}
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    width: 18rem;
+    margin: 30px 20px;
+}
+
+.recommend .card{
+    text-align: center;
+    width: 18rem;
+    margin: 16px 4px;
 }
