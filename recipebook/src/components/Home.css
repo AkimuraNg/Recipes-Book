@@ -16,22 +16,25 @@
     margin-top: 40px;  
 }
 .recommend{
+    background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
     margin: 20px 10px;
 }
 .cooking{
+    background: #FFFFFF;
     text-align: left;
     margin: 20px 0px;
 }
-.cooking >h3{
-    margin: 20px 20px;
-}
+
 .cocktail{
+    background: #FFFFFF;
     text-align: left;
     margin: 30px 0px
 }
-.cocktail > h3{
+.titles{
+    display: flex;
+    justify-content: space-between;
     margin: 20px 20px;
 }
 .items{
