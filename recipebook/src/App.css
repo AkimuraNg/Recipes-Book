@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  background: linear-gradient(180deg, #FFFFFF 22.92%, rgba(139, 228, 240, 0.94) 71.87%);
 }
-
+/* .footer{
+  background: black;
+} */
 * {
   -ms-overflow-style: none;
 }

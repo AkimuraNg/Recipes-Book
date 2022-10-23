@@ -5,15 +5,15 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-dark bg-dark fixed-top">
+            <nav className="navbar bg-light">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="#">Recipe Book</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <Link className="navbar-brand" href="#">Recipes Book</Link>
+                    <div className="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                         <div className="offcanvas-header">
-                            <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                            <h5 className="offcanvas-title" id="offcanvasLabel">Menu</h5>
                             <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body">
