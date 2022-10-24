@@ -2,13 +2,71 @@
   text-align: center;
   background: linear-gradient(180deg, #FFFFFF 22.92%, rgba(139, 228, 240, 0.94) 71.87%);
 }
-/* .footer{
-  background: black;
-} */
+.footer{
+  margin-top: 44px;
+  padding: 40px;
+  background-color: black;
+}
 * {
   -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+/*Home css*/
+.description{
+  margin-top: 10px;
+}
+.description > h1{
+  font-family: 'Itim', cursive;
+  font-size: 64px;
+  line-height: 77px;
+  color: #41BDE4;
+}
+.description > p{
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  line-height: 28px;
+}
+.view{
+  margin-top: 28px;  
+}
+.recommend{
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 20px 20px;
+}
+.cooking{
+  background: #FFFFFF;
+  text-align: left;
+  margin: 20px 0px;
+}
+.cocktail{
+  background: #FFFFFF;
+  text-align: left;
+  margin: 30px 0px
+}
+.titles{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.items{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.card{
+  text-align: center;
+  width: 18rem;
+  margin: 30px 20px;
+}
+.recommend .card{
+  text-align: center;
+  width: 18rem;
+  margin: 16px 4px;
 }
