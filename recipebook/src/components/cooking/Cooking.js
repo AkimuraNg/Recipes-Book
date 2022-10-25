@@ -13,6 +13,12 @@ const Cooking = () => {
           <h1>Cooking Recipes</h1>
           <p>This is a list of cooking recipes</p>
         </section>
+
+        <footer className="footer">
+          <div className="container-fluid">
+            <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
+          </div>
+        </footer>
       </main>
     </div>
   )
