@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: linear-gradient(180deg, #FFFFFF 22.92%, rgba(139, 228, 240, 0.94) 71.87%);
+  background: #FDF4E3;
 }
 .footer{
   margin-top: 44px;
@@ -23,7 +23,7 @@
   font-family: 'Itim', cursive;
   font-size: 64px;
   line-height: 77px;
-  color: #41BDE4;
+  color: #6F5B3E;
 }
 .description > p{
   font-family: 'Itim', cursive;
@@ -34,21 +34,23 @@
   margin-top: 28px;  
 }
 .recommend{
-  background: #FFFFFF;
-  border: 1px solid #000000;
+  /* background: #FFFFFF; */
+  /* border: 1px solid #6F5B3E; */
   box-sizing: border-box;
   padding: 10px;
   margin: 20px 20px;
 }
 .cooking{
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  /* border: 1px solid #6F5B3E; */
   text-align: left;
-  margin: 20px 0px;
+  margin: 44px 0px;
 }
 .cocktail{
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  /* border: 1px solid #6F5B3E; */
   text-align: left;
-  margin: 30px 0px
+  margin: 44px 0px
 }
 .titles{
   display: flex;
@@ -70,3 +72,11 @@
   width: 18rem;
   margin: 16px 4px;
 }
+
+.list .card-body{
+  padding: 16px 0px;
+}
+
+/* @media screen {
+  
+} */

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
-import items from '../data/items.json'
+import items from '../data/items2.json'
 
 const Cocktail = () => {
   return (

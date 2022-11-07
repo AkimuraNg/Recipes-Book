@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './navbar/navbar'
 
 import recipe from './data/recipe.json'
+import cocktail from './data/cocktail.json'
 import recommend from './data/recommend.json'
 
 import { Link } from 'react-router-dom'
@@ -32,9 +33,6 @@ const Home = () => {
                                         <div className="card">
                                             <div className='card-body' key={post.id}>
                                                 <img src={post.image} alt="recipe" />
-                                                <h5 className="card-title">{post.title}</h5>
-                                                <p className='card-text'>{post.desc}</p>
-                                                <a href="#" className="btn btn-secondary">{post.links}</a>
                                             </div>
                                         </div>
                                     )
@@ -43,10 +41,10 @@ const Home = () => {
 
                             <div className="col-7" >
                                 {/*Cooking home view*/}
-                                <section className="cooking" style={{ border: "1px solid black" }}>
+                                <section className="cooking" >
                                     <div className='titles'>
                                         <h3>Cocktail Recipes</h3>
-                                        <Link style={{ cursor: "pointer", textDecoration: "underline" }} to="/cooking">See more</Link>
+                                        <Link style={{ cursor: "pointer", textDecoration: "underline", color: "#B59F84" }} to="/cooking">See more</Link>
                                     </div>
                                     <div className="items">
                                         {recipe.map(post => {
@@ -56,7 +54,7 @@ const Home = () => {
                                                         <img src={post.image} alt="recipe" />
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
-                                                        <a href="#" className="btn btn-secondary">{post.links}</a>
+                                                        <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>
                                                     </div>
                                                 </div>
                                             )
@@ -65,20 +63,20 @@ const Home = () => {
                                 </section>
 
                                 {/*Cocktail home view*/}
-                                <section className="cocktail" style={{ border: "1px solid black" }}>
+                                <section className="cocktail" >
                                     <div className='titles'>
                                         <h3>Cocktail Recipes</h3>
-                                        <Link style={{ cursor: "pointer", textDecoration: "underline" }} to="/cocktail">See more</Link>
+                                        <Link style={{ cursor: "pointer", textDecoration: "underline" , color: "#B59F84" }} to="/cocktail">See more</Link>
                                     </div>
                                     <div className="items">
-                                        {recipe.map(post => {
+                                        {cocktail.map(post => {
                                             return (
                                                 <div className="card">
                                                     <div className='card-body' key={post.id}>
                                                         <img src={post.image} alt="recipe" />
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
-                                                        <a href="#" className="btn btn-secondary">{post.links}</a>
+                                                        <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>
                                                     </div>
                                                 </div>
                                             )

@@ -10,7 +10,7 @@
 }
 
 .bg-light{
-    background: #fff !important;
+    background: #FDF4E3 !important;
 }
 
 .navbar-toggler{
@@ -18,4 +18,8 @@
 }
 .navbar-toggler:focus{
     box-shadow: none;
+}
+
+.offcanvas{
+    background: #FDF4E3 !important;
 }
