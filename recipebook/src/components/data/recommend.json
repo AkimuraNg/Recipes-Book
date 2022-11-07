@@ -1,23 +1,18 @@
 [
     {
         "id": 1,
-        "title": "Pho",
-        "desc": "A traditional Vietnamese dish. Pho is known worldwide for its broth and the combination of ingredients.",
-        "links": "Later",
-        "image": "later"
+        "image": "image/pumpkin.png"
     },
     {
         "id": 2,
-        "title": "Pho",
-        "desc": "A traditional Vietnamese dish. Pho is known worldwide for its broth and the combination of ingredients.",
-        "links": "Later",
-        "image": "later"
+        "image": "image/meatloaf.png"
     },
     {
         "id": 3,
-        "title": "Pho",
-        "desc": "A traditional Vietnamese dish. Pho is known worldwide for its broth and the combination of ingredients.",
-        "links": "Later",
-        "image": "later"
+        "image": "image/friedrice.png"
+    },
+    {
+        "id": 4,
+        "image": "image/sushi.png"
     }
 ]
