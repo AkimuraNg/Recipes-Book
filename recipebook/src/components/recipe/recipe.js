@@ -10,16 +10,17 @@ const Recipe = () => {
             </header>
 
             <main className="wrapper">
-                <section className="headImage">
-                    <h1>Pumpkin Pie</h1>
-                    <img src={headImage} alt="header"/>
+                <section className="headImage" style={{marginTop: 32}}>
+                    <h1 style={{color: "#B59F84"}}>Pumpkin Pie</h1>
+                    <p style={{marginTop: 20}}>Description</p>
+                    <img src={headImage} alt="header" className="headerImage"/>
                 </section>
 
                 <section className="content" style={{ marginTop: 100 }}>
                     <div className="container-fluid">
                         <div className="row justify-content-evenly">
                             <div className="col-5">
-                                <h2>Ingredients</h2>
+                                <h2 style={{color: "#B59F84"}}>Ingredients</h2>
                                 <p>
                                     750g Pumpkin <br />
                                     350g Shortcrust Pastry<br />
@@ -35,7 +36,7 @@ const Recipe = () => {
                             </div>
 
                             <div className="col-5">
-                                <h2>How to Cook</h2>
+                                <h2 style={{color: "#B59F84"}}>How to Cook</h2>
                                 <p>In a separate bowl, combine the sugar, salt, nutmeg and half the cinnamon. <br/>
                                     Mix in the beaten eggs, melted butter and milk, then add to the pumpkin purée and stir to combine. <br/>
                                     Pour into the tart shell and cook for 10 mins, then reduce the temperature to 180C/160C fan/gas 4. <br/>
