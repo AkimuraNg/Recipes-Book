@@ -32,7 +32,7 @@ const Home = () => {
                                     return (
                                         <div className="card">
                                             <div className='card-body' key={post.id}>
-                                                <img src={post.image} alt="recipe" />
+                                                <img src={post.image} alt="recipe" className="image"/>
                                             </div>
                                         </div>
                                     )
@@ -43,7 +43,7 @@ const Home = () => {
                                 {/*Cooking home view*/}
                                 <section className="cooking" >
                                     <div className='titles'>
-                                        <h3>Cocktail Recipes</h3>
+                                        <h3>Cooking Recipes</h3>
                                         <Link style={{ cursor: "pointer", textDecoration: "underline", color: "#B59F84" }} to="/cooking">See more</Link>
                                     </div>
                                     <div className="items">
@@ -51,7 +51,7 @@ const Home = () => {
                                             return (
                                                 <div className="card">
                                                     <div className='card-body' key={post.id}>
-                                                        <img src={post.image} alt="recipe" />
+                                                        <img src={post.image} alt="recipe" className="image"/>
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
                                                         <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>
@@ -73,7 +73,7 @@ const Home = () => {
                                             return (
                                                 <div className="card">
                                                     <div className='card-body' key={post.id}>
-                                                        <img src={post.image} alt="recipe" />
+                                                        <img src={post.image} alt="recipe" className="image"/>
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
                                                         <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>

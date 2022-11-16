@@ -2,11 +2,13 @@
   text-align: center;
   background: #FDF4E3;
 }
-.footer{
+
+.footer {
   margin-top: 44px;
   padding: 40px;
   background-color: black;
 }
+
 * {
   -ms-overflow-style: none;
 }
@@ -16,67 +18,189 @@
 }
 
 /*Home css*/
-.description{
+.description {
   margin-top: 10px;
 }
-.description > h1{
+
+.description>h1 {
   font-family: 'Itim', cursive;
   font-size: 64px;
   line-height: 77px;
   color: #6F5B3E;
 }
-.description > p{
+
+.description>p {
   font-family: 'Itim', cursive;
   font-size: 20px;
   line-height: 28px;
 }
-.view{
-  margin-top: 28px;  
+
+.view {
+  margin-top: 28px;
 }
-.recommend{
-  /* background: #FFFFFF; */
-  /* border: 1px solid #6F5B3E; */
+
+.image{
+  width: 100%;
+}
+
+.recommend {
   box-sizing: border-box;
   padding: 10px;
   margin: 20px 20px;
 }
-.cooking{
-  /* background: #FFFFFF; */
-  /* border: 1px solid #6F5B3E; */
-  text-align: left;
-  margin: 44px 0px;
+
+.cooking {
+  margin: 44px 28px;
 }
-.cocktail{
-  /* background: #FFFFFF; */
-  /* border: 1px solid #6F5B3E; */
-  text-align: left;
-  margin: 44px 0px
+
+.cocktail {
+  margin: 44px 28px
 }
-.titles{
+
+.titles {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px;
 }
-.items{
+
+.items {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
-.card{
+
+.card {
   text-align: center;
-  width: 18rem;
-  margin: 30px 20px;
-}
-.recommend .card{
-  text-align: center;
-  width: 18rem;
-  margin: 16px 4px;
+  width: 20rem;
+  margin: 30px 8px;
 }
 
-.list .card-body{
+.recommend .card {
+  width: 100%;
+  /* margin: 16px 24px; */
+}
+
+.list .card-body {
   padding: 16px 0px;
 }
 
-/* @media screen {
-  
+.headerImage{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Home Page */
+  .recommend {
+    display: none;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cooking .titles {
+    margin: 20px -4px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cooking .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cooking .card {
+    width: 100%;
+    margin: 4px 0px;
+  }
+
+  .cocktail .titles {
+    margin: 20px -4px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cocktail .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cocktail .card {
+    width: 100%;
+    margin: 4px 0px;
+  }
+
+  /* Items List */
+
+  .card {
+    margin: 12px 20px;
+  }
+
+  /*Recipe view*/
+  .headerImage {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* Home Page */
+  .recommend {
+    display: none;
+  }
+  .image {
+    width: 100%;
+  }
+
+  .cooking .titles {
+    margin: 20px -4px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cooking .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cooking .card {
+    width: 100%;
+    margin: 4px 0px;
+    padding: 10px 10px;
+  }
+
+  .cocktail .titles {
+    margin: 20px -4px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cocktail .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cocktail .card {
+    width: 100%;
+    margin: 4px 0px;
+  }
+
+  /*Recipe view*/
+  .headerImage {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width: 1024px){
+  .image {
+    width: 100%;
+  }
+  .cooking{
+    margin-left: 40px;
+  }
+
+  .cocktail{
+    margin-left: 40px;
+  }
 } */
