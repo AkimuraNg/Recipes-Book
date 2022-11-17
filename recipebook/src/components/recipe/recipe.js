@@ -18,8 +18,8 @@ const Recipe = () => {
 
                 <section className="content" style={{ marginTop: 100 }}>
                     <div className="container-fluid">
-                        <div className="row justify-content-evenly">
-                            <div className="col-5">
+                        <div className="row justify-content-evenly howTo">
+                            <div className="col">
                                 <h2 style={{color: "#B59F84"}}>Ingredients</h2>
                                 <p>
                                     750g Pumpkin <br />
@@ -35,7 +35,7 @@ const Recipe = () => {
                                     1 tblsp Icing Sugar</p>
                             </div>
 
-                            <div className="col-5">
+                            <div className="col">
                                 <h2 style={{color: "#B59F84"}}>How to Cook</h2>
                                 <p>In a separate bowl, combine the sugar, salt, nutmeg and half the cinnamon. <br/>
                                     Mix in the beaten eggs, melted butter and milk, then add to the pumpkin purée and stir to combine. <br/>

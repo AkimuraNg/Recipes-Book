@@ -24,10 +24,10 @@ const Cooking = () => {
                 return (
                   <div className="card">
                     <div className='card-body' key={post.id}>
-                      <img src={post.image} alt="recipe" />
+                      <img src={post.image} alt="recipe" className="image" style={{cursor: 'pointer'}}/>
                       <h5 className="card-title">{post.title}</h5>
                       <p className='card-text'>{post.desc}</p>
-                      <a href="#" className="btn btn-secondary">{post.links}</a>
+                      {/* <a href="#" className="btn btn-secondary">{post.links}</a> */}
                     </div>
                   </div>
                 )
