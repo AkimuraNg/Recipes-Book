@@ -1,14 +1,8 @@
 .App {
   text-align: center;
   background: #FDF4E3;
+  font-family: 'Itim', cursive;
 }
-
-.footer {
-  margin-top: 44px;
-  padding: 40px;
-  background-color: black;
-}
-
 * {
   -ms-overflow-style: none;
 }
@@ -17,20 +11,53 @@
   display: none;
 }
 
+/*Navigation bar*/
+
+.navbar-brand{
+  cursor:pointer;
+  font-size: 28px;
+}
+.nav-item{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing:.2px;
+}
+
+.bg-light{
+  background: #FDF4E3 !important;
+}
+
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.offcanvas{
+  background: #FDF4E3 !important;
+}
+
+/**/
+.footer {
+  margin-top: 44px;
+  padding: 40px;
+  background-color: black;
+}
+
 /*Home css*/
 .description {
   margin-top: 10px;
 }
 
 .description>h1 {
-  font-family: 'Itim', cursive;
   font-size: 64px;
   line-height: 77px;
   color: #6F5B3E;
 }
 
 .description>p {
-  font-family: 'Itim', cursive;
   font-size: 20px;
   line-height: 28px;
 }
@@ -141,6 +168,10 @@
   .headerImage {
     width: 100%;
   }
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -153,6 +184,9 @@
     width: 100%;
   }
 
+  .col-7{
+    width: unset !important;
+  }
   .cooking .titles {
     margin: 20px -4px;
     text-align: center;
@@ -190,17 +224,8 @@
   .headerImage {
     width: 100%;
   }
+  .howTo{
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-/* @media only screen and (max-width: 1024px){
-  .image {
-    width: 100%;
-  }
-  .cooking{
-    margin-left: 40px;
-  }
-
-  .cocktail{
-    margin-left: 40px;
-  }
-} */
