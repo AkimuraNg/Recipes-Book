@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/recipes/
+
+###
+POST http://localhost:3001/api/recipes/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Meal number 5"
+}
+
+
+###
+DELETE http://localhost:3001/api/recipes/63728ba9d5ecbd4bf339568b HTTP/1.1
