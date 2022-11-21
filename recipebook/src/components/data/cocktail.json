@@ -1,90 +1,30 @@
 [
     {
         "id": 1,
-        "title": "Kiwi Martini",
+        "title": "Margarita",
         "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
+        "image": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"
     },
     {
         "id": 2,
-        "title": "Kiwi Martini",
+        "title": "Blue Margarita",
         "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
+        "image": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg"
     },
     {
         "id": 3,
-        "title": "Kiwi Martini",
+        "title": "Strawberry Margarita",
         "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
+        "image": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg"
     },
     {
         "id": 4,
-        "title": "Kiwi Martini",
+        "title": "Smashed Watermelon Margarita",
         "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
+        "image": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg"
     },
     {
         "id": 5,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 6,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 7,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 8,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 9,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 10,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 11,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 12,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 13,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 14,
-        "title": "Kiwi Martini",
-        "desc": "A cocktail made with Kiwi and Martini.",
-        "image": "image/kiwi.png"
-    },
-    {
-        "id": 15,
         "title": "Kiwi Martini",
         "desc": "A cocktail made with Kiwi and Martini.",
         "image": "image/kiwi.png"
