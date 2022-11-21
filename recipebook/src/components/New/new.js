@@ -8,8 +8,6 @@ const New = () => {
                 <Navbar />
             </header>
 
-
-
             <main className="wrapper">
                 <section>
                     <h1>Add your new recipe here</h1>
@@ -22,28 +20,38 @@ const New = () => {
                         Click here to start
                     </button>
                 </section>
-
-
-
-                <footer className="footer">
-                    <div className="container-fluid">
-                        <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
-                    </div>
-                </footer>
-
-
             </main>
 
             <div className="modal fade" id="newRecipeModal" tabindex="-1" aria-labelledby="newRecipeModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
+                <div className="modal-dialog modal-fullscreen">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="newRecipeModalLabel">Modal title</h1>
+                            <h1 className="modal-title fs-5" id="newRecipeModalLabel">Create your recipe</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+
+
                         <div className="modal-body">
-                            ...
+
+                            <div className="mb-3">
+                                <label for="itemName" className="form-label">Meal / Drink Name</label>
+                                <input type="text" className="form-control" id="itemName" placeholder="Chow Mein" />
+                            </div>
+                            <div className="mb-3">
+                                <label for="itemCategory" className="form-label">Category</label>
+                                <input type="text" className="form-control" id="itemCategory" placeholder="Chow Mein" />
+                            </div>
+                            <div className="mb-3">
+                                <label for="ingredients" className="form-label">Ingredients</label>
+                                <textarea type="text" className="form-control" id="ingredients" placeholder="Chow Mein" rows="10" />
+                            </div>
+                            <div className="mb-3">
+                                <label for="process" className="form-label">How to Make</label>
+                                <textarea type="text" className="form-control" id="process" placeholder="Chow Mein" rows="10" />
+                            </div>
                         </div>
+
+
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary">Save changes</button>

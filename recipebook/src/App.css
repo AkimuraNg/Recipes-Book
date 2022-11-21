@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: #FDF4E3;
+  background-color: #FDF4E3;
   font-family: 'Itim', cursive;
 }
 * {
@@ -10,7 +10,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
+main{
+  min-height: 100vh;
+}
 /*Navigation bar*/
 
 .navbar-brand{
@@ -39,12 +41,14 @@
   background: #FDF4E3 !important;
 }
 
-/**/
+/*Footer*/
 .footer {
   margin-top: 44px;
-  padding: 40px;
+  /* height: 10vh; */
+  padding: 28px;
   background-color: black;
 }
+
 
 /*Home css*/
 .description {

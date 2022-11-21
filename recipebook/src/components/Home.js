@@ -33,7 +33,7 @@ const Home = () => {
                                     return (
                                         <div className="card">
                                             <div className='card-body' key={post.id}>
-                                                <img src={post.image} alt="recipe" className="image" style={{ cursor: 'pointer'}} data-bs-toggle="modal" data-bs-target="#recipeModal"/>
+                                                <img src={post.image} alt="recipe" className="image" style={{ cursor: 'pointer' }} data-bs-toggle="modal" data-bs-target="#recipeModal" />
                                                 <h5 className="card-title">{post.title}</h5>
                                             </div>
                                         </div>
@@ -90,12 +90,12 @@ const Home = () => {
                     </div>
                 </section>
 
-                <footer className="footer">
-                    <div className="container-fluid">
-                        <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
-                    </div>
-                </footer>
             </main>
+            {/* <footer className="footer">
+                <div className="container-fluid">
+                    <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
+                </div>
+            </footer> */}
 
         </div>
     )
