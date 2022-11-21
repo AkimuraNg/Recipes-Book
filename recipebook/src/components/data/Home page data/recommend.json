@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Seri muka kuih",
+        "image": "https://www.themealdb.com/images/media/meals/6ut2og1619790195.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Beef Rendang",
+        "image": "https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Eton Mess",
+        "image": "https://www.themealdb.com/images/media/meals/uuxwvq1483907861.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Stuffed Lamb Tomatoes",
+        "image": "https://www.themealdb.com/images/media/meals/u55lbp1585564013.jpg"
+    }
+]

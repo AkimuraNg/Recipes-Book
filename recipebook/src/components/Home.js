@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from './navbar/navbar'
+// import Modal from './Modal'
 
-import recipe from './data/recipe.json'
-import cocktail from './data/cocktail.json'
-import recommend from './data/recommend.json'
+import meal from './data/Home page data/Item1.json'
+import cocktail from './data/Home page data/Item2.json'
+import recommend from './data/Home page data/recommend.json'
 
 import { Link } from 'react-router-dom'
 
@@ -32,7 +33,8 @@ const Home = () => {
                                     return (
                                         <div className="card">
                                             <div className='card-body' key={post.id}>
-                                                <img src={post.image} alt="recipe" className="image"/>
+                                                <img src={post.image} alt="recipe" className="image" style={{ cursor: 'pointer'}} data-bs-toggle="modal" data-bs-target="#recipeModal"/>
+                                                <h5 className="card-title">{post.title}</h5>
                                             </div>
                                         </div>
                                     )
@@ -47,14 +49,14 @@ const Home = () => {
                                         <Link style={{ cursor: "pointer", textDecoration: "underline", color: "#B59F84" }} to="/cooking">See more</Link>
                                     </div>
                                     <div className="items">
-                                        {recipe.map(post => {
+                                        {meal.map(post => {
                                             return (
                                                 <div className="card">
                                                     <div className='card-body' key={post.id}>
-                                                        <img src={post.image} alt="recipe" className="image"/>
+                                                        <img src={post.image} alt="recipe" className="image" />
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
-                                                        <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>
+                                                        <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#recipeModal">View recipe</button>
                                                     </div>
                                                 </div>
                                             )
@@ -66,17 +68,17 @@ const Home = () => {
                                 <section className="cocktail" >
                                     <div className='titles'>
                                         <h3>Cocktail Recipes</h3>
-                                        <Link style={{ cursor: "pointer", textDecoration: "underline" , color: "#B59F84" }} to="/cocktail">See more</Link>
+                                        <Link style={{ cursor: "pointer", textDecoration: "underline", color: "#B59F84" }} to="/cocktail">See more</Link>
                                     </div>
                                     <div className="items">
                                         {cocktail.map(post => {
                                             return (
                                                 <div className="card">
                                                     <div className='card-body' key={post.id}>
-                                                        <img src={post.image} alt="recipe" className="image"/>
+                                                        <img src={post.image} alt="recipe" className="image" />
                                                         <h5 className="card-title">{post.title}</h5>
                                                         <p className='card-text'>{post.desc}</p>
-                                                        <Link href="#" className="btn btn-secondary" to="/recipe">{post.links}</Link>
+                                                        <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#recipeModal">View recipe</button>
                                                     </div>
                                                 </div>
                                             )
@@ -93,8 +95,8 @@ const Home = () => {
                         <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
                     </div>
                 </footer>
-                
             </main>
+
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
-import items from '../data/items.json'
+import items from '../data/cooking.json'
 
 
 const Cooking = () => {
@@ -27,7 +27,7 @@ const Cooking = () => {
                       <img src={post.image} alt="recipe" className="image" style={{cursor: 'pointer'}}/>
                       <h5 className="card-title">{post.title}</h5>
                       <p className='card-text'>{post.desc}</p>
-                      {/* <a href="#" className="btn btn-secondary">{post.links}</a> */}
+                      <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#recipeModal">View recipe</button>
                     </div>
                   </div>
                 )
