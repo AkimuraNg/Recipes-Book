@@ -16,7 +16,12 @@ function App() {
         <Route path="/new" element={<New />}></Route>
       </Routes>
 
-      <Modal/>
+      <Modal />
+      <footer className="footer">
+        <div className="container-fluid">
+          <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
+        </div>
+      </footer>
     </div>
   );
 }

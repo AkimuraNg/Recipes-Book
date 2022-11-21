@@ -61,11 +61,11 @@ const Cocktail = () => {
 					</div>
 				</section>
 
-				<footer className="footer">
+				{/* <footer className="footer">
 					<div className="container-fluid">
 						<h3 style={{ color: "white" }}>Copyrights 2022</h3>
 					</div>
-				</footer>
+				</footer> */}
 			</main>
 		</div>
 	);
