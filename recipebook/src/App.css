@@ -13,6 +13,10 @@
 main{
   min-height: 100vh;
 }
+
+img{
+  width: 100%;
+}
 /*Navigation bar*/
 
 .navbar-brand{
@@ -70,9 +74,7 @@ main{
   margin-top: 28px;
 }
 
-.image{
-  width: 100%;
-}
+
 
 .recommend {
   box-sizing: border-box;
@@ -124,10 +126,6 @@ main{
   /* Home Page */
   .recommend {
     display: none;
-  }
-
-  .image {
-    width: 100%;
   }
 
   .cooking .titles {
@@ -184,9 +182,6 @@ main{
   .recommend {
     display: none;
   }
-  .image {
-    width: 100%;
-  }
 
   .col-7{
     width: unset !important;
@@ -225,9 +220,7 @@ main{
   }
 
   /*Recipe view*/
-  .headerImage {
-    width: 100%;
-  }
+
   .howTo{
     display: flex;
     flex-direction: column;

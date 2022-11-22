@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './navbar/navbar'
+// import Navbar from './navbar/navbar'
 // import Modal from './Modal'
 
 import meal from './data/Home page data/Item1.json'
@@ -12,9 +12,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div className="Home">
-            <header>
-                <Navbar />
-            </header>
+
             <main className="wrapper">
                 {/* Introduction*/}
                 <section className="description">
@@ -91,12 +89,6 @@ const Home = () => {
                 </section>
 
             </main>
-            {/* <footer className="footer">
-                <div className="container-fluid">
-                    <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
-                </div>
-            </footer> */}
-
         </div>
     )
 }

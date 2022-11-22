@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar/navbar";
+// import Navbar from "../navbar/navbar";
 import items from "../data/cooking.json";
 import { useState } from "react";
 
@@ -20,9 +20,7 @@ const Cooking = () => {
 
   return (
     <div className="Cooking-view">
-      <header>
-        <Navbar />
-      </header>
+
       <main className="wrapper">
         {/* Intro */}
         <section className="description">
@@ -71,11 +69,6 @@ const Cooking = () => {
         </section>
 
       </main>
-      {/* <footer className="footer">
-        <div className="container-fluid">
-          <h3 style={{ color: "white" }}>Copyrights 2022</h3>
-        </div>
-      </footer> */}
     </div>
   );
 };

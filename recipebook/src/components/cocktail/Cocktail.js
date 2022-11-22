@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar/navbar";
+// import Navbar from "../navbar/navbar";
 import items from "../data/cocktail.json";
 import { useState } from "react";
 
@@ -20,9 +20,7 @@ const Cocktail = () => {
 
 	return (
 		<div>
-			<header>
-				<Navbar />
-			</header>
+
 			<main className="wrapper">
 				{/* Intro */}
 				<section className="description">
@@ -60,12 +58,6 @@ const Cocktail = () => {
 						</div>
 					</div>
 				</section>
-
-				{/* <footer className="footer">
-					<div className="container-fluid">
-						<h3 style={{ color: "white" }}>Copyrights 2022</h3>
-					</div>
-				</footer> */}
 			</main>
 		</div>
 	);

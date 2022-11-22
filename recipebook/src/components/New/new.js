@@ -59,9 +59,6 @@ const New = () => {
 
 	return (
 		<div className="newRecipe">
-			<header>
-				<Navbar />
-			</header>
 
 			<main className="wrapper">
 				<section>
@@ -80,6 +77,26 @@ const New = () => {
 						Click here to start
 					</button>
 				</section>
+
+				<section className="list">
+				<div className="container-fluid">
+					<div className="row justify-content-center">
+						{recipes.map((post) => {
+							return (
+								<div className="card" key={post.id}>
+									<div className="card-body">
+										<p className="card-text">{post.name}</p>
+										<button>View recipe</button>
+										<button onClick={() => deleteRecipe(post.id)}>
+											Delete
+										</button>
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			</section>
 			</main>
 
 			<div
@@ -181,25 +198,7 @@ const New = () => {
 				</div>
 			</div>
 
-			<section className="list">
-				<div className="container-fluid">
-					<div className="row justify-content-center">
-						{recipes.map((post) => {
-							return (
-								<div className="card" key={post.id}>
-									<div className="card-body">
-										<p className="card-text">{post.name}</p>
-										<button>View recipe</button>
-										<button onClick={() => deleteRecipe(post.id)}>
-											Delete
-										</button>
-									</div>
-								</div>
-							);
-						})}
-					</div>
-				</div>
-			</section>
+			
 		</div>
 	);
 };

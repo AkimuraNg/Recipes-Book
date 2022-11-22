@@ -5,10 +5,15 @@ import Cooking from './components/cooking/Cooking';
 import Cocktail from './components/cocktail/Cocktail';
 import Modal from './components/Modal'
 import New from './components/New/new';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
+      <header>
+        <Navbar />
+      </header>
+
       <Routes>
         <Route path="" element={<Home />}></Route>
         <Route path="/cooking" element={<Cooking />}></Route>
