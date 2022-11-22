@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 
-const url = process.env.MONGODB_URL;
+// const url = process.env.MONGODB_URL;
+const url =
+	"mongodb+srv://quangtricao:123@cluster0.kvzjilt.mongodb.net/mealDB?retryWrites=true&w=majority";
 
 console.log("connecting to", url);
 

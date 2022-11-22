@@ -1,13 +1,20 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import mealService from "../../services/recipe";
 
 const New = () => {
+	const [recipes, setRecipes] = useState([]);
 	const [name, setName] = useState("");
 	const [category, setCategory] = useState("");
 	const [ingredients, setIngredients] = useState("");
 	const [howToMake, setHowToMake] = useState("");
+
+	useEffect(() => {
+		mealService.getAll().then((meals) => {
+			setRecipes(meals);
+		});
+	}, []);
 
 	const submitting = () => {
 		const newRecipe = {
@@ -18,7 +25,7 @@ const New = () => {
 		};
 
 		mealService.create(newRecipe).then((responseData) => {
-			console.log(responseData);
+			setRecipes(recipes.concat(responseData));
 			setName("");
 			setCategory("");
 			setIngredients("");
@@ -38,6 +45,16 @@ const New = () => {
 	};
 	const handleHowToMakeChange = (event) => {
 		setHowToMake(event.target.value);
+	};
+
+	const deleteRecipe = (id) => {
+		const toDelete = recipes.find((p) => p.id === id);
+		const ok = window.confirm(`Delete ${toDelete.name}`);
+		if (ok) {
+			mealService.remove(id).then(() => {
+				setRecipes(recipes.filter((p) => p.id !== id));
+			});
+		}
 	};
 
 	return (
@@ -163,6 +180,26 @@ const New = () => {
 					</div>
 				</div>
 			</div>
+
+			<section className="list">
+				<div className="container-fluid">
+					<div className="row justify-content-center">
+						{recipes.map((post) => {
+							return (
+								<div className="card" key={post.id}>
+									<div className="card-body">
+										<p className="card-text">{post.name}</p>
+										<button>View recipe</button>
+										<button onClick={() => deleteRecipe(post.id)}>
+											Delete
+										</button>
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 };
