@@ -24,7 +24,7 @@ function App() {
       <Modal />
       <footer className="footer">
         <div className="container-fluid">
-          <h3 style={{ color: 'white' }}>Copyrights 2022</h3>
+          <h3 style={{ color: '#6F5B3E' }}>Copyrights 2022</h3>
         </div>
       </footer>
     </div>
