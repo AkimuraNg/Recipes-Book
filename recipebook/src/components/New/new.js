@@ -107,7 +107,7 @@ const New = () => {
 				aria-hidden="true"
 			>
 				<div className="modal-dialog modal-fullscreen">
-					<div className="modal-content">
+					<div className="modal-content" style={{ background: "#FDF4E3" }}>
 						<div className="modal-header">
 							<h1
 								className="modal-title fs-5"
@@ -181,15 +181,9 @@ const New = () => {
 						<div className="modal-footer">
 							<button
 								type="button"
-								className="btn btn-secondary"
-								data-bs-dismiss="modal"
-							>
-								Close
-							</button>
-							<button
-								type="button"
 								className="btn btn-primary"
 								onClick={submitting}
+								data-bs-dismiss="modal"
 							>
 								Save changes
 							</button>
