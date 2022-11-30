@@ -86,8 +86,8 @@ const New = () => {
 								<div className="card" key={post.id}>
 									<div className="card-body">
 										<p className="card-text">{post.name}</p>
-										<button>View recipe</button>
-										<button onClick={() => deleteRecipe(post.id)}>
+										<button type="button" className="btn btn-light" style={{marginRight: 20}}>View recipe</button>
+										<button type="button" className="btn btn-danger" onClick={() => deleteRecipe(post.id)}>
 											Delete
 										</button>
 									</div>

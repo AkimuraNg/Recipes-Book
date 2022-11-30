@@ -2,19 +2,31 @@
     {
         "id": 1,
         "title": "Vietnamese Grilled Pork",
-        "desc": "Pork",
         "image": "https://www.themealdb.com/images/media/meals/qqwypw1504642429.jpg"
     },
     {
         "id": 2,
         "title": "Jerk chicken with rice & peas",
-        "desc": "Chicken",
         "image": "https://www.themealdb.com/images/media/meals/tytyxu1515363282.jpg"
     },
     {
         "id": 3,
         "title": "Egg Drop Soup",
-        "desc": "Vegetarian",
         "image": "https://www.themealdb.com/images/media/meals/1529446137.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Nutty Chicken Curry",
+        "image": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Tuna Nicoise",
+        "image": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Honey Teriyaki Salmon",
+        "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg"
     }
 ]

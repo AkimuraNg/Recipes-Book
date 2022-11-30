@@ -28,7 +28,7 @@ const Cooking = () => {
           <p>This is a list of cooking recipes</p>
         </section>
 
-        <input value={filter} onChange={handleChange} />
+        <input value={filter} onChange={handleChange} style={{border: "none"}}/>
 
         {/* Item list */}
         <section className="list">
@@ -51,7 +51,7 @@ const Cooking = () => {
                         {post.title}
                       </h5>
                       <p className="card-text">
-                        {post.desc}
+                        {post.category}
                       </p>
                       <button
                         className="btn btn-secondary"

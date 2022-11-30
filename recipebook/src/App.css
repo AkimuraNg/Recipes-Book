@@ -45,6 +45,18 @@ img{
   background: #FDF4E3 !important;
 }
 
+.btn-light{
+  background: #FDF4E3 !important;
+}
+
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+.slick-list{
+  margin: 0 -10px;
+}
+
 /*Footer*/
 .footer {
   margin-top: 44px;
@@ -74,8 +86,6 @@ img{
   margin-top: 28px;
 }
 
-
-
 .recommend {
   box-sizing: border-box;
   padding: 10px;
@@ -97,8 +107,8 @@ img{
 }
 
 .items {
-  display: flex;
-  flex-wrap: nowrap;
+  /* display: flex;
+  flex-wrap: nowrap; */
   justify-content: center;
 }
 
