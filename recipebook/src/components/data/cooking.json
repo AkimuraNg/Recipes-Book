@@ -3,156 +3,182 @@
         "id": 1,
         "title": "Vietnamese Grilled Pork",
         "category": "Pork",
+        "instruction": "Slice the uncooked pork thinly, about ⅛. It helps to slightly freeze it (optional). Mince garlic and shallots. Mix in a bowl with sugar, fish sauce, thick soy sauce, pepper, and oil until sugar dissolves. Marinate the meat for 1 hour, or overnight for better results. Bake the pork at 375F for 10-15 minutes or until about 80% cooked. Finish cooking by broiling in the oven until a nice golden brown color develops, flipping the pieces midway. Assemble your bowl with veggies, noodles, and garnish. Many like to mix the whole bowl up and pour the fish sauce on top, but I like to make individual bites and sauce it slowly.",
         "image": "https://www.themealdb.com/images/media/meals/qqwypw1504642429.jpg"
     },
     {
         "id": 2,
         "title": "Beef Banh Mi Bowls",
         "category": "Beef",
+        "instruction": "Place rice in a fine-mesh sieve and rinse until water runs clear. Add to a small pot with 1 cup water (2 cups for 4 servings) and a pinch of salt. Bring to a boil, then cover and reduce heat to low. Cook until rice is tender, 15 minutes. Keep covered off heat for at least 10 minutes or until ready to serve. Meanwhile, wash and dry all produce. Peel and finely chop garlic. Zest and quarter lime (for 4 servings, zest 1 lime and quarter both). Trim and halve cucumber lengthwise; thinly slice crosswise into half-moons. Halve, peel, and medium dice onion. Trim, peel, and grate carrot. In a medium bowl, combine cucumber, juice from half the lime, ¼ tsp sugar (½ tsp for 4 servings), and a pinch of salt. In a small bowl, combine mayonnaise, a pinch of garlic, a squeeze of lime juice, and as much sriracha as you’d like. Season with salt and pepper. Heat a drizzle of oil in a large pan over medium-high heat. Add onion and cook, stirring, until softened, 4-5 minutes. Add beef, remaining garlic, and 2 tsp sugar (4 tsp for 4 servings). Cook, breaking up meat into pieces, until beef is browned and cooked through, 4-5 minutes. Stir in soy sauce. Turn off heat; taste and season with salt and pepper. Fluff rice with a fork; stir in lime zest and 1 TBSP butter. Divide rice between bowls. Arrange beef, grated carrot, and pickled cucumber on top. Top with a squeeze of lime juice. Drizzle with sriracha mayo.", 
         "image": "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg"
     },
     {
         "id": 3,
         "title": "Jerk chicken with rice & peas",
         "category": "Chicken",
+        "instruction":"To make the jerk marinade, combine all the ingredients in a food processor along with 1 tsp salt, and blend to a purée. If you’re having trouble getting it to blend, just keep turning off the blender, stirring the mixture, and trying again. Eventually it will start to blend up – don’t be tempted to add water, as you want a thick paste. Taste the jerk mixture for seasoning – it should taste pretty salty, but not unpleasantly, puckering salty. You can now throw in more chillies if it’s not spicy enough for you. If it tastes too salty and sour, try adding in a bit more brown sugar until the mixture tastes well balanced. Make a few slashes in the chicken thighs and pour the marinade over the meat, rubbing it into all the crevices. Cover and leave to marinate overnight in the fridge. If you want to barbecue your chicken, get the coals burning 1 hr or so before you’re ready to cook. Authentic jerked meats are not exactly grilled as we think of grilling, but sort of smoke-grilled. To get a more authentic jerk experience, add some wood chips to your barbecue, and cook your chicken over slow, indirect heat for 30 mins. To cook in the oven, heat to 180C/160C fan/gas 4. Put the chicken pieces in a roasting tin with the lime halves and cook for 45 mins until tender and cooked through. While the chicken is cooking, prepare the rice & peas. Rinse the rice in plenty of cold water, then tip it into a large saucepan with all the remaining ingredients except the kidney beans. Season with salt, add 300ml cold water and set over a high heat. Once the rice begins to boil, turn it down to a medium heat, cover and cook for 10 mins. Add the beans to the rice, then cover with a lid. Leave off the heat for 5 mins until all the liquid is absorbed. Squeeze the roasted lime over the chicken and serve with the rice & peas, and some hot sauce if you like it really spicy.",
         "image": "https://www.themealdb.com/images/media/meals/tytyxu1515363282.jpg"
     },
     {
         "id": 4,
         "title": "Beef Lo Mein",
         "category": "Beef",
+        "instruction":"STEP 1 - MARINATING THE BEEF: In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch,1 Tablespoon of oil and mix together. STEP 2 - BOILING THE THE NOODLES: In a 6 qt pot add your noodles to boiling water until the noodles are submerged and boil on high heat for 10 seconds. After your noodles is done boiling strain and cool with cold water. STEP 3 - STIR FRY: Add 2 Tablespoons of oil, beef and cook on high heat until beef is medium cooked. Set the cooked beef aside. In a wok add 2 Tablespoon of oil, onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 1.5 cups of water or until the vegetables are submerged in water. Add the noodles to wok. To make the sauce, add oyster sauce, 1 pinch white pepper, 1 teaspoon sesame seed oil, sugar, and 1 Teaspoon of soy sauce. Next add the beef to wok and stir-fry",
         "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg"
     },
     {
         "id": 5,
         "title": "Lamb Rogan josh",
         "category": "Lamb",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/vvstvq1487342592.jpg"
     },
     {
         "id": 6,
         "title": "Chocolate Souffle",
         "category": "Dessert",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/twspvx1511784937.jpg"
     },
     {
         "id": 7,
         "title": "Chocolate Gateau",
         "category": "Dessert",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg"
     },
     {
         "id": 8,
         "title": "Canadian Butter Tarts",
         "category": "Dessert",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/wpputp1511812960.jpg"
     },
     {
         "id": 9,
         "title": "Nanaimo Bars",
         "category": "Dessert",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/vwuprt1511813703.jpg"
     },
     {
         "id": 10,
         "title": "Egg Drop Soup",
         "category": "Vegetarian",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/1529446137.jpg"
     },
     {
         "id": 11,
         "title": "Beef stroganoff",
         "category": "Beef",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg"
     },
     {
         "id": 12,
         "title": "Shakshuka",
         "category": "Vegetarian",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg"
     },
     {
         "id": 13,
         "title": "Teriyaki Chicken Casserole",
         "category": "Chicken",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg"
     },
     {
         "id": 14,
         "title": "Spinach & Ricotta Cannelloni",
         "category": "Vegetarian",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/wspuvp1511303478.jpg"
     },
     {
         "id": 15,
         "title": "Salmon Avocado Salad",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/1549542994.jpg"
     },
     {
         "id": 16,
         "title": "Honey Teriyaki Salmon",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg"
     },
     {
         "id": 17,
         "title": "McSinghs Scotch pie",
         "category": "Lamb",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/vssrtx1511557680.jpg"
     },
     {
         "id": 18,
         "title": "Fruit and Cream Cheese Breakfast Pastries",
         "category": "Breakfast",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/1543774956.jpg"
     },
     {
         "id": 19,
         "title": "Venetian Duck Ragu",
         "category": "Pasta",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/qvrwpt1511181864.jpg"
     },
     {
         "id": 20,
         "title": "Spicy North African Potato Salad",
         "category": "Vegetarian",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/urtwux1486983078.jpg"
     },
     {
         "id": 21,
         "title": "Pad See Ew",
         "category": "Chicken",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg"
     },
     {
         "id": 22,
         "title": "Krispy Kreme Donut",
         "category": "Dessert",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg"
     },
     {
         "id": 23,
         "title": "Kapsalon",
         "category": "Lamb",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg"
     },
     {
         "id": 24,
         "title": "Tunisian Lamb Soup",
         "category": "Lamb",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/t8mn9g1560460231.jpg"
     },
     {
         "id": 25,
         "title": "Chicken Parmentier",
         "category": "Chicken",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/uwvxpv1511557015.jpg"
     },
     {
         "id": 26,
         "title": "Baked salmon with fennel & tomatoes",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg"
     }
     ,
@@ -160,144 +186,168 @@
         "id": 27,
         "title": "Cajun spiced fish tacos",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
     },
     {
         "id": 28,
         "title": "Escovitch Fish",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/1520084413.jpg"
     },
     {
         "id": 29,
         "title": "Fish fofos",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg"
     },
     {
         "id": 30,
         "title": "Garides Saganaki",
         "category": "Seafood",
+        "instruction":"",
         "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
     },
     {
         "id": 31,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Budino Di Ricotta",
+        "category": "Dessert",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/1549542877.jpg"
     },
     {
         "id": 32,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Rappie Pie",
+        "category": "Chicken",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/ruwpww1511817242.jpg"
     },
     {
         "id": 33,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+        "category": "Chicken",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/b5ft861583188991.jpg"
     },
     {
         "id": 34,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Spaghetti Bolognese",
+        "category": "Beef",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
     },
     {
         "id": 35,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Bubble & Squeak",
+        "category": "Pork",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/xusqvw1511638311.jpg"
     },
     {
         "id": 36,
-        "title": "Garides Saganaki",
+        "title": "Tuna Nicoise",
         "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg"
     },
     {
         "id": 37,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Lamb Tzatziki Burgers",
+        "category": "Lamb",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/k420tj1585565244.jpg"
     },
     {
         "id": 38,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Christmas cake",
+        "category": "Dessert",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/ldnrm91576791881.jpg"
     },
     {
         "id": 39,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
+        "category": "Vegetarian",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/ysqrus1487425681.jpg"
     },
     {
         "id": 40,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Smoky Lentil Chili with Squash",
+        "category": "Vegetarian",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/uwxqwy1483389553.jpg"
     },
     {
         "id": 41,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Boulangère Potatoes",
+        "category": "Side",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/qywups1511796761.jpg"
     },
     {
         "id": 42,
-        "title": "Garides Saganaki",
+        "title": "Shrimp Chow Fun",
         "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/1529445434.jpg"
     },
     {
         "id": 43,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Burek",
+        "category": "Side",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg"
     },
     {
         "id": 44,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "BBQ Pork Sloppy Joes",
+        "category": "Pork",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg"
     },
     {
         "id": 45,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Rocky Road Fudge",
+        "category": "Dessert",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/vtxyxv1483567157.jpg"
     },
     {
         "id": 46,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Vegan Lasagna",
+        "category": "Vegetarian",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg"
     },
     {
         "id": 47,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Nutty Chicken Curry",
+        "category": "Chicken",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg"
     },
     {
         "id": 48,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Mbuzi Choma (Roasted Goat)",
+        "category": "Goat",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/cuio7s1555492979.jpg"
     },
     {
         "id": 49,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Kafteji",
+        "category": "Vegetarian",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/1bsv1q1560459826.jpg"
     },
     {
         "id": 50,
-        "title": "Garides Saganaki",
-        "category": "Seafood",
-        "image": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+        "title": "Crock Pot Chicken Baked Tacos",
+        "category": "Chicken",
+        "instruction":"",
+        "image": "https://www.themealdb.com/images/media/meals/ypxvwv1505333929.jpg"
     }
 ]

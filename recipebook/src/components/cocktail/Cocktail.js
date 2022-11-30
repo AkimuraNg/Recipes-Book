@@ -11,8 +11,8 @@ const Cocktail = () => {
 		filter.length === 0
 			? item
 			: item.filter((p) =>
-					p.title.toLowerCase().includes(filter.toLowerCase())
-			  );
+				p.title.toLowerCase().includes(filter.toLowerCase())
+			);
 
 	const handleChange = (e) => {
 		setFilter(e.target.value);
@@ -38,12 +38,15 @@ const Cocktail = () => {
 								return (
 									<div className="card" key={post.id}>
 										<div className="card-body">
+											<img
+												src={post.image}
+												alt="recipe"
+												className="image"
+												style={{ cursor: "pointer" }}
+											/>
 											<h5 className="card-title">
 												{post.title}
 											</h5>
-											<p className="card-text">
-												{post.desc}
-											</p>
 											<button
 												className="btn btn-secondary"
 												data-bs-toggle="modal"
