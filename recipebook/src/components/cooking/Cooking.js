@@ -25,7 +25,8 @@ const Cooking = () => {
         {/* Intro */}
         <section className="description">
           <h1>Cooking Recipes</h1>
-          <p>This is a list of cooking recipes</p>
+          <p>This is a list of 50 cooking recipes that we come up with, these dishes can be the most favorite dish from the country of origin. Feel free to challenge yourself into making these.</p>
+          <p>You can search for a recipe with the search bar below.</p>
         </section>
 
         <input value={filter} onChange={handleChange} style={{border: "none"}}/>

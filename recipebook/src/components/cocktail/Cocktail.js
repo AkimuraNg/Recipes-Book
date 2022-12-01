@@ -25,10 +25,11 @@ const Cocktail = () => {
 				{/* Intro */}
 				<section className="description">
 					<h1>Cocktail Recipes</h1>
-					<p>This is a list of cocktail recipes</p>
+					<p>This is a list of 50 cooking recipes that we come up with, some of these are favored by many people. Feel free to challenge yourself into making these.</p>
+					<p>You can search for a recipe with the search bar below.</p>
 				</section>
 
-				<input value={filter} onChange={handleChange} />
+				<input value={filter} onChange={handleChange} style={{border: "none"}}/>
 
 				{/* Item list */}
 				<section className="list">
