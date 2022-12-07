@@ -6,8 +6,8 @@
     },
     {
         "id": 2,
-        "title": "Jerk chicken with rice & peas",
-        "image": "https://www.themealdb.com/images/media/meals/tytyxu1515363282.jpg"
+        "title": "Chicken Parmentier",
+        "image": "https://www.themealdb.com/images/media/meals/uwvxpv1511557015.jpg"
     },
     {
         "id": 3,
@@ -28,5 +28,20 @@
         "id": 6,
         "title": "Honey Teriyaki Salmon",
         "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Lamb Tzatziki Burgers",
+        "image": "https://www.themealdb.com/images/media/meals/k420tj1585565244.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Spaghetti Bolognese",
+        "image": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Budino Di Ricotta",
+        "image": "https://www.themealdb.com/images/media/meals/1549542877.jpg"
     }
 ]

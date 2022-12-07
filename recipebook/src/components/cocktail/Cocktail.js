@@ -1,7 +1,7 @@
 import React from "react";
-// import Navbar from "../navbar/navbar";
 import items from "../data/cocktail.json";
 import { useState } from "react";
+import {Link} from "react-router-dom"
 
 const Cocktail = () => {
 	const [item, setItem] = useState(items);
@@ -48,13 +48,12 @@ const Cocktail = () => {
 											<h5 className="card-title">
 												{post.title}
 											</h5>
-											<button
+											<Link
 												className="btn btn-secondary"
-												data-bs-toggle="modal"
-												data-bs-target="#recipeModal"
+												to="/item"
 											>
 												View recipe
-											</button>
+											</Link>
 										</div>
 									</div>
 								);
