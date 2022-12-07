@@ -28,5 +28,20 @@
         "id": 6,
         "title": "Sea breeze",
         "image": "https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Mojito Extra",
+        "image": "https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg"
+    },
+    {
+        "id": 8,
+        "title": "B-52",
+        "image": "https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Salted Toffee Martini",
+        "image": "https://www.thecocktaildb.com/images/media/drink/3s6mlr1509551211.jpg"
     }
 ]

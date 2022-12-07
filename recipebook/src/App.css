@@ -17,6 +17,7 @@ main{
 img{
   width: 100%;
 }
+
 /*Navigation bar*/
 
 .navbar-brand{
@@ -60,9 +61,7 @@ img{
 /*Footer*/
 .footer {
   margin-top: 44px;
-  /* height: 10vh; */
   padding: 28px;
-  background-color: black;
 }
 
 
@@ -114,7 +113,7 @@ img{
 
 .card {
   text-align: center;
-  width: 20rem;
+  width: 18rem;
   margin: 30px 8px;
 }
 
@@ -127,8 +126,10 @@ img{
   padding: 16px 0px;
 }
 
-.headerImage{
-  width: 100%;
+/*Item view*/
+.itemContent{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 @media only screen and (max-width: 600px) {
@@ -177,10 +178,7 @@ img{
   }
 
   /*Recipe view*/
-  .headerImage {
-    width: 100%;
-  }
-  .content{
+  .itemContent{
     display: flex;
     flex-direction: column;
   }

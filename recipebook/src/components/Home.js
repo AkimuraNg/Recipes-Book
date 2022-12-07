@@ -40,7 +40,8 @@ const Home = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false
                 }
             }
         ]
@@ -88,7 +89,7 @@ const Home = () => {
                                         return (
                                             <div className="card">
                                                 <div className='card-body' key={post.id}>
-                                                    <img src={post.image} alt="recipe" className="image" style={{ cursor: 'pointer' }}/>
+                                                    <img src={post.image} alt="recipe" style={{ cursor: 'pointer' }}/>
                                                     <h5 className="card-title" style={{ marginTop: 4 }}>{post.title}</h5>
                                                 </div>
                                             </div>
