@@ -15,17 +15,17 @@ const CookingItem = ({ item, setFilter }) => {
 	}
 	return (
 		<>
-			<button onClick={() => { setFilter(""); }}>
-				back
-			</button>
 			<div className="container-fluid">
 				<main className="wrapper">
-					<section className="header">
+					<section className="header" style={{paddingTop: 40}}>
+						<button className="btn btn-secondary" style={{ width: 100 }} onClick={() => { setFilter(""); }}>
+							Return
+						</button>
 						<h1> {item.title} </h1>
 						<img
 							src={item.image}
 							alt="recipe"
-							style={{ width: "500px" }}
+							className="headerImage"
 						/>
 					</section>
 
@@ -39,13 +39,13 @@ const CookingItem = ({ item, setFilter }) => {
 
 									<div
 										style={{
-											textAlign: "left",
+											textAlign: "center",
 											padding: 40,
 										}}
 									>
 										{initialArr.map((i) => {
 											return (
-												<p key={i.id}>
+												<p key={i.id} style={{fontSize: 20}}>
 													{i.ingredient}
 												</p>
 											);
@@ -61,6 +61,7 @@ const CookingItem = ({ item, setFilter }) => {
 										style={{
 											textAlign: "left",
 											padding: 40,
+											fontSize: 20
 										}}
 									>
 										{item.instruction}
@@ -70,6 +71,7 @@ const CookingItem = ({ item, setFilter }) => {
 						</div>
 					</section>
 				</main>
+
 			</div>
 		</>
 	);
@@ -83,8 +85,8 @@ const Cooking = () => {
 		filter.length === 0
 			? item
 			: item.filter((p) =>
-					p.title.toLowerCase().includes(filter.toLowerCase())
-			  );
+				p.title.toLowerCase().includes(filter.toLowerCase())
+			);
 
 	if (itemToShow.length > 1) {
 		return (

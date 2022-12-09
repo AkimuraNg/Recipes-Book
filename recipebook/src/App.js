@@ -6,7 +6,6 @@ import Cocktail from './components/cocktail/Cocktail';
 // import Modal from './components/Modal'
 import New from './components/New/new';
 import Navbar from './components/navbar/navbar';
-import Item from './components/Item';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/cooking" element={<Cooking />}></Route>
         <Route path="/cocktail" element={<Cocktail />}></Route>
         <Route path="/new" element={<New />}></Route>
-        <Route path="/item" element={<Item/>}></Route>
       </Routes>
 
       <footer className="footer">

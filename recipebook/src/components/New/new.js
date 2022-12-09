@@ -102,7 +102,7 @@ const New = () => {
 			<div
 				className="modal fade"
 				id="newRecipeModal"
-				tabindex="-1"
+				tabindex="0"
 				aria-labelledby="newRecipeModalLabel"
 				aria-hidden="true"
 			>
