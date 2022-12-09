@@ -113,7 +113,7 @@ const Home = () => {
                                                         <div className='card-body' key={post.id}>
                                                             <img src={post.image} alt="recipe" className="image" />
                                                             <h5 className="card-title">{post.title}</h5>
-                                                            <Link className="btn btn-secondary" to="/item">View recipe</Link>
+                                                            <Link className="btn btn-secondary">View recipe</Link>
                                                         </div>
                                                     </div>
                                                 )
@@ -136,7 +136,7 @@ const Home = () => {
                                                         <div className='card-body' key={post.id}>
                                                             <img src={post.image} alt="recipe" className="image" />
                                                             <h5 className="card-title">{post.title}</h5>
-                                                            <Link className="btn btn-secondary" to="/item">View recipe</Link>
+                                                            <Link className="btn btn-secondary">View recipe</Link>
                                                         </div>
                                                     </div>
                                                 )

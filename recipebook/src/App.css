@@ -131,6 +131,9 @@ img{
   display: flex;
   flex-wrap: nowrap;
 }
+.headerImage{ 
+  width: 500px;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -181,6 +184,9 @@ img{
   .itemContent{
     display: flex;
     flex-direction: column;
+  }
+  .headerImage{ 
+    width: 100%;
   }
 }
 
