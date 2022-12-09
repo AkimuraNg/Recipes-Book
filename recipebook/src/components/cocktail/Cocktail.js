@@ -1,7 +1,6 @@
 import React from "react";
 import items from "../data/cocktail.json";
 import { useState } from "react";
-import {Link} from "react-router-dom"
 
 const CocktailItem = ({ item, setFilter }) => {
 	let initialArr = [];
