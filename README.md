@@ -13,16 +13,19 @@ RecipesBook is currently support these features:
 
 ## Website UI
 ![Home page](docs/recipebook%20gif%201.gif)
-<br> Home page <br>
+<br> Home page 
 
 ![Cooking page](docs/recipebook%20gif%202.gif)
-<br> Cooking Page <br>
+<br> Cooking Page 
 
 ![Cocktail page and search feature](docs/recipebook%20gif%203.gif)
-<br> Cocktail Page and Search feature <br>
+<br> Cocktail Page 
 
 ![Add new recipe page](docs/recipebook%20gif%204.gif)
 <br> Add new recipe page
+
+![Recipe view page](docs/recipebook%20gif%205.gif)
+<br> Recipe view page
 
 ## API
 The website uses two following APIs:
