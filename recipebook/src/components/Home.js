@@ -113,7 +113,7 @@ const Home = () => {
                                                         <div className='card-body' key={post.id}>
                                                             <img src={post.image} alt="recipe" className="image" />
                                                             <h5 className="card-title">{post.title}</h5>
-                                                            <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#recipeModal">View recipe</button>
+                                                            <Link className="btn btn-secondary" to="/item">View recipe</Link>
                                                         </div>
                                                     </div>
                                                 )
@@ -136,7 +136,7 @@ const Home = () => {
                                                         <div className='card-body' key={post.id}>
                                                             <img src={post.image} alt="recipe" className="image" />
                                                             <h5 className="card-title">{post.title}</h5>
-                                                            <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#recipeModal">View recipe</button>
+                                                            <Link className="btn btn-secondary" to="/item">View recipe</Link>
                                                         </div>
                                                     </div>
                                                 )
