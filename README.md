@@ -53,7 +53,7 @@ The project is developed by the following contributors:
 * Hoang Nhat Duy Nguyen.
 * Cao Quang Tri.
 * Tien Dat Nguyen
-<br>
+
 The supervisors of this project are:
 * Petteri Jekunen.
 * Juha Ikonen.
