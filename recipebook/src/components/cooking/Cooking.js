@@ -1,92 +1,17 @@
 import React from "react";
 import items from "../data/cooking.json";
 import { useState } from "react";
-
-const CookingItem = ({ item, setFilter }) => {
-	let initialArr = [];
-	for (let a = 1; a < 50; a++) {
-		let c = `strIngredient${a}`;
-		if (item[c]) {
-			initialArr.push({
-				id: a - 1,
-				ingredient: item[c],
-			});
-		}
-	}
-	return (
-		<>
-			<div className="container-fluid">
-				<main className="wrapper">
-					<section className="header" style={{paddingTop: 40}}>
-						<button className="btn btn-secondary" style={{ width: 100 }} onClick={() => { setFilter(""); }}>
-							Return
-						</button>
-						<h1> {item.title} </h1>
-						<img
-							src={item.image}
-							alt="recipe"
-							className="headerImage"
-						/>
-					</section>
-
-					<section className="content" style={{ paddingTop: 80 }}>
-						<div className="row justify-content-between">
-							<div className="itemContent">
-								<div className="col">
-									<h3 style={{ color: "#6F5B3E" }}>
-										Ingredients
-									</h3>
-
-									<div
-										style={{
-											textAlign: "center",
-											padding: 40,
-										}}
-									>
-										{initialArr.map((i) => {
-											return (
-												<p key={i.id} style={{fontSize: 20}}>
-													{i.ingredient}
-												</p>
-											);
-										})}
-									</div>
-								</div>
-
-								<div className="col">
-									<h3 style={{ color: "#6F5B3E" }}>
-										Instruction
-									</h3>
-									<p
-										style={{
-											textAlign: "left",
-											padding: 40,
-											fontSize: 20
-										}}
-									>
-										{item.instruction}
-									</p>
-								</div>
-							</div>
-						</div>
-					</section>
-				</main>
-
-			</div>
-		</>
-	);
-};
+import Item from "../Item";
 
 const Cooking = () => {
-	const [item, setItem] = useState(items);
 	const [filter, setFilter] = useState("");
 
 	const itemToShow =
 		filter.length === 0
-			? item
-			: item.filter((p) =>
-				p.title.toLowerCase().includes(filter.toLowerCase())
-			);
+			? items
+			: items.filter((p) =>
+					p.title.toLowerCase().includes(filter.toLowerCase())
+			  );
 
 	if (itemToShow.length > 1) {
 		return (
@@ -154,7 +79,40 @@ const Cooking = () => {
 		);
 	}
 
-	return <CookingItem item={itemToShow[0]} setFilter={setFilter} />;
+	if (itemToShow.length === 0) {
+		return (
+			<div className="Cooking-view">
+				<main className="wrapper">
+					{/* Intro */}
+					<section className="description">
+						<h1>Cooking Recipes</h1>
+						<p>
+							This is a list of 50 cooking recipes that we come up
+							with, these dishes can be the most favorite dish
+							from the country of origin. Feel free to challenge
+							yourself into making these.
+						</p>
+						<p>
+							You can search for a recipe with the search bar
+							below.
+						</p>
+					</section>
+
+					<input
+						value={filter}
+						onChange={(event) => {
+							setFilter(event.target.value);
+						}}
+						style={{ border: "none" }}
+					/>
+
+					<div> Sorry there is no matching</div>
+				</main>
+			</div>
+		);
+	}
+
+	return <Item item={itemToShow[0]} setFilter={setFilter} />;
 };
 
 export default Cooking;
